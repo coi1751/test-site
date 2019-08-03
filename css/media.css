@@ -1,0 +1,69 @@
+@media screen and (max-width: 960px) {
+	.container {
+		width: 95%;
+	}
+	.logo {
+		margin-right: 40px;
+	}
+	.left-block {
+		margin: 0 auto;
+		float: none;
+	}
+	.right-block {
+		margin: 0 auto;
+		float: none;
+	}
+	.skill-item {
+		margin-bottom: 20px;
+		margin-right: 10px;
+	}
+	#works .div-item {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.item_last {
+		margin-right: 0;
+	}
+	.item_last .skill__text {
+		margin-right: 0;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	nav {
+		display: none;
+	}
+	.down__right {
+		margin-top: 15px;
+	}	
+	.skill-item {
+		margin-right: 0;
+	}
+	.third_item  {
+		margin-right: 53px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.logo {
+		display: block;
+		max-width: 155px;
+		float: none;
+		margin: 0 auto;
+	}
+	.link {
+		display: none;
+	}
+	.right-block .right-block__advantages-item {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		max-width: 130px;
+	}
+	.right-block__down {
+		margin: 0 auto;
+		float: none;
+		max-width: 180px;
+	}
+
+}
